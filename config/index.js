@@ -1,6 +1,6 @@
 
-const appURL = process.env.NODE_ENV === 'development' ? 'https://staging.musicoin.org' : 'https://www.musicoin.org';
-const forumURL = process.env.NODE_ENV === 'development' ? 'https://forum.musicoin.org' : 'https://forum.musicoin.org';
+const appURL = process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'http://localhost:3000';
+const forumURL = process.env.NODE_ENV === 'development' ? 'http://localhost:4567' : 'http://localhost:4567';
 
 module.exports = {
 	appURL: appURL,
