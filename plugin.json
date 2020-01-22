@@ -14,7 +14,7 @@
       "method": "extendConfig"
     },
     {
-      "hook": "filter:hotswap.prepare",
+      "hook": "action:auth.overrideLogin",
       "method": "overrideLoginController"
     }
   ],
